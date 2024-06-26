@@ -49,9 +49,6 @@ main{
     padding: 20px;
 }
 
-.navbar {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 @font-face {
     font-family: titular;

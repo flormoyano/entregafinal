@@ -1,0 +1,94 @@
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 {
+  font-family: "titular";
+}
+
+h2 {
+  font-family: "titular italica";
+}
+
+h3,
+h4 {
+  font-family: "titular";
+  color: black;
+}
+
+p {
+  text-align: center;
+  margin: 20px 0;
+  color: black;
+  font-weight: bold;
+  font-family: "texto regular";
+}
+
+.Imgfotocoworking,
+.Imgfotocoworking3,
+.imgNosotros {
+  width: 50%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+}
+
+.imgSlack {
+  width: 50%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+  width: 30%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+input,
+textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.btnFormulario {
+  background-color: black;
+  color: #aac23d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=body.css.map */

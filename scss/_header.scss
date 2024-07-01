@@ -1,0 +1,71 @@
+@mixin anclas {
+    text-decoration: none;
+    color: black;
+
+}
+
+header {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 100px;
+    float: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+
+    li {
+        margin: 0 10px;
+    }
+}
+
+a {
+    @include anclas;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "texto regular";
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1615457938971-3ab61c1c0d57?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: "titular";
+    src: url("../assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "texto regular";
+    src: url("../assets/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "titular italica";
+    src: url("../assets/fonts/SocialDistrict.otf");
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elemento {
+    flex: 1;
+    margin: 10px;
+    padding: 0;
+    background-color: beige;
+}

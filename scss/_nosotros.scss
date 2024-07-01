@@ -1,0 +1,13 @@
+@mixin anclas2 {
+    width: 50%;
+    height: auto;
+}
+
+.Imgfotocoworking,
+.Imgfotocoworking3,
+.imgNosotros {
+    @include anclas2;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+}

@@ -1,29 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: yellow;
+    font-family: "texto regular", Arial, sans-serif;
 }
 
-header{
+header {
     text-align: center;
     padding: 10px 20px;
 }
 
 .logo {
-    
     width: 100px;
     float: left;
 }
 
-
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
 
 nav ul li {
-display: inline-block;
-margin: 0 10px;
+    margin: 0 10px;
 }
 
 a {
@@ -31,231 +35,118 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     color: black;
-    font-family: texto regular;
+    font-family: "texto regular";
 }
 
-/* main */
-.body {
-    background-image: url(https://images.unsplash.com/photo-1615457938971-3ab61c1c0d57?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-size: 100% auto;
-    background-repeat: repeat;
-    height: 100%;
-    width: 100%;
-    margin-top: 0;
-    }
+body {
+    background-image: url('https://images.unsplash.com/photo-1615457938971-3ab61c1c0d57?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-main{
+main {
     margin: 20px;
     padding: 20px;
 }
 
-
 @font-face {
-    font-family: titular;
+    font-family: "titular";
     src: url("../assets/fonts/Roboto-Bold.ttf");
 }
 
 @font-face {
-    font-family:texto regular;
+    font-family: "texto regular";
     src: url("../assets/fonts/Roboto-Light.ttf");
 }
 
 @font-face {
-    font-family:titular italica;
+    font-family: "titular italica";
     src: url("../assets/fonts/SocialDistrict.otf");
 }
 
-/*Home*/
-
 .container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .elemento {
-    margin-right: 10px;
-    background-color: beige;
+    flex: 1;
     margin: 10px;
-    padding: 0px;
-    align-content: center;
+    padding: 0;
+    background-color: beige;
 }
 
-.menu {
-    display: flex;
-    justify-content: flex-start; 
-}
-
-h1{
+h1,
+h2,
+h3,
+h4 {
     text-align: center;
-    margin: 20px 0px;
-    font-family: titular;
+    margin: 20px 0;
 }
 
-.h3{
-    text-align: center;
-    margin:20px 0px;
-    color:rgb(0, 0, 0);
-    font-weight: bold;
-    font-family: titular;
-    padding: 0px;
+h1 {
+    font-family: "titular";
 }
 
-
-.Imgfotocoworking {
-    width: 100%;
-    height: auto; 
-    margin-right: 20px;
-    padding: 10px;
-    
-    margin-left: auto; 
-    margin-right: auto;
-    }
-
-
-
-        .Imgfotocoworking3 {
-            width: 100%;
-            height: auto; 
-            margin-right: 20px;
-            padding: 10px;
-            
-            margin-left: auto; 
-            margin-right: auto;
-            }
-
-        .container{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-        }
-
-.parrafo1{
-    height: 100%;
-    width: 100%;
-
+h2 {
+    font-family: "titular italica";
 }
 
-p{
-    text-align: center;
-    margin: 20px 0px;
-    color:rgb(0, 0, 0);
-    font-weight: bold;
-    font-family: texto regular;
-    padding: 0px;
-
-}
-
-
-h2{
-    text-decoration: none;
-    font-weight: bold;
+h3,
+h4 {
+    font-family: "titular";
     color: black;
-    display: inline-block;
-    margin: 0 10px;
-    padding: 20px;
-    font-family: titular italica;
 }
 
+p {
+    text-align: center;
+    margin: 20px 0;
+    color: black;
+    font-weight: bold;
+    font-family: "texto regular";
+}
 
-section {
+.Imgfotocoworking,
+.Imgfotocoworking3,
+.imgNosotros,
+.imgSlack {
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+}
+
+.imgSlack {
+    width: 30%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+form {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.menu {
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-}
-
-.menu h2 {
-    margin-right: 20px; 
-}
-
-/* Footer */
-h4{
-    text-align: center;
-    color: black;
-    margin: 0 10px;
-    padding: 20px;
-    font-size: small;
-    font-family: texto regular;
-}
-
-/*Nosotros*/
-
-.body1 {
-    background-image: url(https://images.unsplash.com/photo-1606429448471-e61b48c8c9f0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    height: 420px;
-    width: 100%;
-    margin-top: 0;
-    }
-
-.menu1 {
-    display: flex;
-    justify-content: flex-start; 
-}
-
-.imgNosotros{
-    width: 40%;
-    height: auto; 
-    margin-right: 20px;
-    padding: 10px;
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-}
-
-.menu2 {
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-}
-
-/*Iframe*/
-iframe{
-    display: block;
-    margin: auto;
-}
-
-/*Servicios*/
-
-
-/*Trabajos*/
-.imgSlack{
-    width: 18%; 
-    margin-bottom: 10px;
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-}
-
-.contenedorEmpresasqueconfian {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between;
-}
-
-
-/*Formulario*/
-form{
-    margin-top: 20px;
-
-}
-
-label{
-    display: block;
+label {
     font-weight: bold;
     margin-bottom: 5px;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 input,
 textarea {
-    display: block;
-    
-    width: 50%;
+    width: 80%;
+    max-width: 400px;
     padding: 10px;
     border: 2px solid lightgrey;
     border-radius: 5px;
@@ -263,9 +154,9 @@ textarea {
     margin-bottom: 10px;
 }
 
-.btnFormulario{
-    background-color: rgb(0, 0, 0);
-    color: rgb(170, 194, 61);
+.btnFormulario {
+    background-color: black;
+    color: #aac23d;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -274,37 +165,23 @@ textarea {
     margin-top: 10px;
 }
 
-/*Responsive*/
+.footer h4 {
+    font-size: small;
+    padding: 20px;
+}
 
-/*vista tablet*/
-@media (max-width:1023px) {
-    /*home*/
 
-    nav {
-        font-size: 10px;
-    }
+/* Responsive Design */
 
+/* Tablets */
+@media (max-width: 1023px) {
     .logo {
-    width: 20%;
-    float: left;
-    display: flex;
-    padding: 10px;
-    }
-
-    .body{
-        height: auto;
-        flex-direction: column;
-        align-content: center;
+        width: 10%;
     }
 
     main {
         font-size: 15px;
         margin-top: 50px;
-    }
-
-    .Imgfotocoworking {
-        width: 100%;
-        align-content: center;
     }
 
     .container {
@@ -313,23 +190,12 @@ textarea {
         text-align: center;
     }
 
-    /*nosotros*/
-
-    .imgNosotros {
-    width: 100%;
-    align-content: center;
+    .imgNosotros, .imgSlack, .Imgfotocoworking, .Imgfotocoworking3 {
+        width: 80%;
     }
 
     h2 {
         font-size: 20px;
-        text-align: center;
-    }
-
-    /*trabajos*/
-
-    .imgSlack{
-        width: 60%;
-        align-content: center;
     }
 
     p {
@@ -339,56 +205,37 @@ textarea {
     iframe {
         width: 80%;
     }
-} 
-    /*contacto*/
-    
-
-/*vista iphone*/
-
-@media (max-width:768px) {
-
-/*home*/
-nav {
-    font-size: 10px;
 }
 
-.logo {
-width: 30%;
-float: left;
-display: flex;
-padding: 10px;
-}
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .logo {
+        width: 15%;
+    }
 
-.body{
-    height: auto;
-    flex-direction: column;
-    align-content: center;
-}
+    main {
+        font-size: 13px;
+        margin-top: 50px;
+    }
 
-main {
-    font-size: 13px;
-    margin-top: 50px;
-}
+    h2 {
+        font-size: 18px;
+    }
 
-h2 {
-    font-size: 18px;
-    text-align: center;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: 0px;
-}
+    p {
+        font-size: 15px;
+    }
 
-/*trabajos*/
+    .imgNosotros, .imgSlack, .Imgfotocoworking, .Imgfotocoworking3 {
+        width: 60%;
+    }
 
-p {
-    font-size: 15px;
-}
+    iframe {
+        max-height: fit-content;
+    }
 
-iframe {
-    
-    max-height: fit-content;
-}
-
-/*contacto*/
-
+    form input,
+    form textarea {
+        width: 100%;
+    }
 }

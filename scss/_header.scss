@@ -69,3 +69,25 @@ main {
     padding: 0;
     background-color: beige;
 }
+
+
+.carousel-item
+{
+width: 20%;
+margin: 20px auto;
+display: block;
+padding: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-carousel-img {
+    max-width: 30%; 
+    margin: 0 auto; 
+}

@@ -1,0 +1,28 @@
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    font-family: "titular";
+}
+
+
+
+h3,
+h4 {
+    font-family: "titular";
+    color: $color-black;
+}
+
+p {
+    text-align: center;
+    margin: 20px 0;
+    color: $color-black;
+    font-weight: bold;
+    font-family: "texto regular";
+}
+

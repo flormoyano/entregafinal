@@ -1,0 +1,31 @@
+//base
+@import "variables";
+@import "reset";
+
+//components
+@import "footer";
+@import "body";
+@import "header";
+
+//layouts
+@import "nosotros";
+@import "servicios";
+@import "trabajos";
+@import "contacto";
+@import "responsive";
+
+// Base styles
+@import "base/variables";
+@import "base/reset";
+
+// Components
+@import "components/footer";
+@import "components/body";
+@import "components/header";
+
+// Layouts
+@import "layouts/nosotros";
+@import "layouts/servicios";
+@import "layouts/trabajos";
+@import "layouts/contacto";
+@import "layouts/responsive";
